@@ -40,16 +40,21 @@ body {
     background-color: #2d64e6;
     color: white;
 }
-
+.pad-top-100{
+    padding-top: 100px;
+}
+.aln-center{
+    text-align: center;
+}
 
 
 /* HEADER FIXED*/
 header {
-    font-family: Helvetica, arial, sans-serif;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    background-color: white;
 }
 header ul li {
     display: inline-block;
@@ -166,5 +171,40 @@ main {
     margin-top: 20px;
 }
 
+/* PlayStation 5 */
+main h6 {
+    font-size: 15px;
+    color: #0474ce;
+    font-weight: bold;
+    margin-bottom: 0;
+}
 
+main h2 {
+    font-size: 40px;
+}
+
+main p {
+    font-size: 18px;
+    color: gray;
+    font-weight: bold;
+    padding: 25px 0;
+}
+
+
+/* Device */
+.devices {
+    padding-top: 30px;
+}
+
+.devices-img h6 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.devices-img img {
+    opacity: 0.5;
+}
+.devices-img img:hover {
+    opacity: 1;
+}
 
