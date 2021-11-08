@@ -1,0 +1,98 @@
+/* COMMON */
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.btn-gray {
+    background-color: #d9dadc;
+    color: #0d6efd;
+}
+.menu-nav ul li .btn-grey {
+    color: white;
+    padding: 11px 16px;
+    background-color: #363636;
+    border-radius: 30px;
+}
+
+
+
+/* HEADER FIXED*/
+header {
+    font-family: Helvetica, arial, sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+header ul li {
+    display: inline-block;
+}
+/* Logo sony */
+.logo-sony{
+    height: 33px;
+    line-height: 33px;
+    background-color: black;
+    text-align: right;
+}
+.logo-sony img {
+    width: 100px;
+    padding-right: 15px;
+}
+
+/* Nav */
+.menu-nav {
+    height: 60px;
+    display: flex;
+}
+.menu-nav ul li a {
+    color: black;
+    font-weight:700;
+    font-size: 18px;
+}
+
+
+/* Logo Play */
+.logo-play img {
+    width: 60px;
+}
+
+
+/* Lista Menu */
+ul li .freccia-giu {
+    margin-left: 3px;
+    width: 10px;
+}
+.list-menu-sx {
+    display: flex;
+    flex-grow: 1;
+}
+.list-menu-dx .search {
+    width: 25px;
+}
+nav ul li {
+    padding: 10px;
+}
+
+/* Burger Menu */
+.burger {
+    font-size: 30px;
+    display: flex;
+}
+.burger i {
+    border: 1px solid lightgray;
+    color: gray;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
